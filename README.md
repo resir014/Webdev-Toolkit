@@ -1,10 +1,10 @@
 # Webdev Toolkit
 
-Webdev Toolkit is, as the name said, a web development toolkit, based on [Gulp](http://gulpjs.com/). It serves as a simple, lightweight debugging tool for developing HTML and CSS websites, with several useful features like code cleaning, autoprefixing, and automatic reloading of pages with BrowserSync.
+Webdev Toolkit is a web development toolkit based on [Gulp](http://gulpjs.com/). It serves as a simple and lightweight debugging tool for developing HTML and CSS websites, with several useful features like code cleaning, autoprefixing, and automatic reloading of pages while you work with the implementation of BrowserSync.
 
 ## How to use
 
-Refer to the `docs` folder, where you can find `install.md` for installation instructions, and `commands.md` for a list of commands available.
+Refer to the `docs` folder, where you can find `install.md` for installation  and usage instructions, and `commands.md` for a list of commands available.
 
 ## License
 
