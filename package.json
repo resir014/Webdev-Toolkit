@@ -1,5 +1,15 @@
 {
   "private": true,
+  "name": "Webdev-Toolkit",
+  "description": "A simple, easy-to-use web development toolkit.",
+  "author": {
+    "name": "Resi Respati",
+    "url": "https://twitter.com/resir014"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/resir014/Webdev-Toolkit.git"
+  },
   "engines": {
     "node": ">=0.10.0"
   },
