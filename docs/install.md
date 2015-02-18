@@ -3,13 +3,13 @@
 To run this toolkit, you will need the following dependencies:
 
 1. [Node.js](http://nodejs.org)
-2. [Gulp](http://gulpjs.com)
+2. [Grunt](http://gruntjs.com/)
 
 ## Installation guide
 
 First, head over to the [Node.js](http://nodejs.org) website and install Node.js. (<b>Note</b>: After installation, you may need to update your PATH variable to include npm. This step is dependent on your operating system.)
 
-Next, open up an elevated terminal window and execute `npm install --global gulp`.
+Next, open up an elevated terminal window and execute `npm install --global grunt`.
 
 Last step! `cd` to the Webdev Toolkit directory from your terminal window, and run `npm install` to install Webdev Toolkit's remaining dependencies.
 
