@@ -9,8 +9,10 @@ module.exports = function (grunt) {
     autoprefixer: {
       build: {
         files: [{
-          src: 'app/css/main.css',
-          dest: 'app/css/main.css'
+          expand: true,
+          cwd: 'app/_sass/',
+          src: ['components/*.scss'],
+          dest: 'app/_sass/'
         }]
       }
     },
@@ -43,15 +45,6 @@ module.exports = function (grunt) {
       }
     },
 
-    cssmin: {
-      build: {
-        files: [{
-          src: 'app/css/main.css',
-          dest: 'app/css/main.min.css'
-        }]
-      }
-    },
-
     sass: {
       build: {
         options: {
@@ -77,7 +70,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('build', [
-    'csscomb:build', 'sass:build', 'autoprefixer:build', 'cssmin:build'
+    'autoprefixer:build', 'csscomb:build', 'sass:build'
   ]);
 
   // browsersync task
