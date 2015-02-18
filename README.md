@@ -1,6 +1,6 @@
 # Webdev Toolkit
 
-Webdev Toolkit is a web development toolkit based on [Grunt](http://http://gruntjs.com/). It serves as a simple and lightweight debugging tool for developing HTML and CSS websites, with several useful features like code cleaning, autoprefixing, and automatic reloading of pages while you work with the implementation of BrowserSync.
+Webdev Toolkit is a web development toolkit based on [Grunt](http://gruntjs.com/). It serves as a simple and lightweight debugging tool for developing HTML and CSS websites, with several useful features like code cleaning, autoprefixing, and automatic reloading of pages while you work with the implementation of BrowserSync.
 
 ## How to use
 
