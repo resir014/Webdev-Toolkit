@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "Webdev-Toolkit",
+  "version": "0.0.1",
   "description": "A simple, easy-to-use web development toolkit.",
   "author": {
     "name": "Resi Respati",
