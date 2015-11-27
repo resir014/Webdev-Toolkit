@@ -1,0 +1,16 @@
+// Global resets
+//
+// Resets all foundational elements of the page.
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: $font-stack;
+}
+
+body {
+  margin: 1rem;
+}
