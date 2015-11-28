@@ -45,6 +45,10 @@ This will run the same build process, but everything will be copied to the `dist
 
 Performs JS linting using [xo](https://github.com/sindresorhus/xo).
 
+## VSCode-specific configs
+
+For those who use [Visual Studio Code](http://code.visualstudio.com/), Webdev Toolkit has its built-in tasks configuration, so you can simply run the `build` task by pressing `Ctrl + Shift + B` and the `dist` task by pressing `Ctrl + Shift + U`.
+
 ## License
 
-[MIT](https://github.com/resir014/Webdev-Toolkit/blob/master/LICENSE).
+[MIT.](https://github.com/resir014/Webdev-Toolkit/blob/master/LICENSE)
