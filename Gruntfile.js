@@ -74,7 +74,7 @@ module.exports = function (grunt) {
 
     // Builds a complete site to the `dist` folder
     copy: {
-      deploy: {
+      dist: {
         expand: true,
         cwd: 'src/',
         src: ['**/*', '!**/scss/**'],
@@ -84,7 +84,7 @@ module.exports = function (grunt) {
 
     // Cleans up the `dist` folder
     clean: {
-      deploy: {
+      dist: {
         src: 'dist'
       }
     },
@@ -123,7 +123,7 @@ module.exports = function (grunt) {
   grunt.registerTask('serve', ['build', 'connect', 'watch']);
 
   // deploy task
-  grunt.registerTask('deploy', ['build', 'clean', 'copy:deploy']);
+  grunt.registerTask('dist', ['build', 'clean', 'copy:dist']);
 
   // default task
   grunt.registerTask('default', 'build');
