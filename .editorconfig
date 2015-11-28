@@ -1,7 +1,9 @@
 # editorconfig.org
 
+# top-most EditorConfig file
 root = true
 
+# Two-space indentation
 [*]
 indent_style = space
 indent_size = 2
@@ -10,10 +12,13 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.py]
+# Four-space indentation required for Python/Ruby files
+[*.{py,rb}]
 indent_style = space
 indent_size = 4
 
-[*.rb]
+# The indent size used in the `package.json` file cannot be changed
+# https://github.com/npm/npm/pull/3180#issuecomment-16336516
+[{.travis.yml,package.json}]
 indent_style = space
-indent_size = 4
+indent_size = 2
