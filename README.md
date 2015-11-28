@@ -39,6 +39,12 @@ Cleans up the CSS code, its formatting and adds the appropriate vendor prefixes 
 
 This will run the same build process, but everything will be copied to the `dist` directory for publishing.
 
+### Lint JS code
+
+`grunt test`
+
+Performs JS linting using [xo](https://github.com/sindresorhus/xo).
+
 ## License
 
 [MIT](https://github.com/resir014/Webdev-Toolkit/blob/master/LICENSE).

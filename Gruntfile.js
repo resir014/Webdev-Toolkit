@@ -118,7 +118,7 @@ module.exports = function (grunt) {
       options: {
         quiet: true
       },
-      target: ['src/**/*.js']
+      test: ['src/**/*.js']
     }
 
   });
@@ -126,6 +126,9 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'sass', 'postcss', 'imagemin'
   ]);
+
+  // test task
+  grunt.registerTask('test', ['xo'])
 
   // server task
   grunt.registerTask('serve', ['build', 'connect', 'watch']);
