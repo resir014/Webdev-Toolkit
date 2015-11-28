@@ -111,6 +111,14 @@ module.exports = function (grunt) {
         files: ['src/**/*'],
         tasks: ['build']
       }
+    },
+
+    // Lint JS files using XO
+    xo: {
+      options: {
+        quiet: true
+      },
+      target: ['src/**/*.js']
     }
 
   });

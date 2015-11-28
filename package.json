@@ -25,6 +25,17 @@
     "grunt-csscomb": "^3.1.0",
     "grunt-postcss": "^0.7.1",
     "grunt-sass": "^1.1.0",
+    "grunt-xo": "^0.8.0",
     "load-grunt-tasks": "^3.3.0"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "mocha"
+    ],
+    "space": true,
+    "rules": {
+      "linebreak-style": 0
+    }
   }
 }
